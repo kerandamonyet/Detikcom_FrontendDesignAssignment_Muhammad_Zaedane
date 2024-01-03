@@ -23,7 +23,9 @@ nav .bg-blur {
   background: rgba(255, 255, 255, 0.50);
   backdrop-filter: blur(25px);
   border-radius: 6.25rem;
-
+}
+nav .menuIcon {
+  cursor: pointer;
 }
 
 nav .navbar-brand {
@@ -89,6 +91,11 @@ section#tentangAcara .card {
     border-radius: 2rem;
     background: linear-gradient(237deg, #59FFB9 -30.09%, #326CFF 71.21%);
     border: none;
+}
+
+section#tentangAcara .card:hover img {
+  transform: scale(1.02); /* Mengubah ukuran gambar saat dihover */
+  transition: transform 0.3s ease;
 }
 
 section#tentangAcara img{
@@ -342,7 +349,7 @@ section#supportBy h2 {
     background-color: transparent;
   }
   
-  section#berita .tab-content .card a {
+  section#berita .tab-content a {
     text-decoration: none;
   }
   section#berita .tab-content .card-body {

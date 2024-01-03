@@ -16,10 +16,10 @@
             <nav class="navbar fixed-top navbar-expand-lg mt-5 text-center">
                 <div class="container bg-blur p-3">
                 <a class="navbar-brand" href="#">
-                    <img src="images/logo/navbar-brand.png" alt="" >
+                    <img src="images/logo/navbar-brand.png" alt="">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <img src="images/asset/Category.svg" alt="">
+                <button class="navbar-toggle border-0 bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" id="toggleButton">
+                    <img src="images/asset/Category.svg" alt="" class="navbar-toggler" id="menuIcon">
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ">
@@ -34,15 +34,15 @@
             </nav>     
             <div class="logo-event">
                 <img src="images/logo/logo-event-2.png" alt="" class="mt-5">
-                <a href="#tentangAcara" class="mt-5 nav-link rounded-pill">TENTANG ACARA</a>
+                <a href="#tentangAcara" class="mt-5 nav-link rounded-pill p-2 p-md-3">TENTANG ACARA</a>
             </div>  
         </div>
     </header>
         <section id="tentangAcara" class="mt-5">
-            <div class="container px-4 text-center">
-                <div class="row gx-5 mb-0">
-                    <div class="col-6 card p-4">
-                        <img src="images/route/map-1.png" alt="">
+            <div class="container p-md-4 text-center">
+                <div class="row g-3 gx-md-5 p-sm-5 p-md-4 mb-0 left-aside">
+                    <div class="col-sm-12 col-lg-6 card p-md-4 mb-4 mb-md-0">
+                        <img src="images/route/map-1.png" class="img-fluid p-md-3" alt="">
                         <div class="card-body">
                             <h4 class="h4 card-title">10K FUN RUN</h4>
                             <p class="card-subtitle">
@@ -50,55 +50,56 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class=" col-sm-12 col-lg-6 ">
+                        <div class="row">
+                            <div class="col-12 card p-3 mb-4">
+                                <div class="card-body">
+                                    <h4 class="h4 card-title">GRATIS DAN BERHADIAH</h4>
+                                    <p class="card-subtitle">
+                                        Pendaftaran gratis! Ajak keluarga anda dan menangkan hadiah total puluhan juta rupiah doorprize menarik!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 card p-3 mb-4">
+                                <div class="card-body">
+                                    <h4 class="h4 card-title">50+ TENANT BAZZAR</h4>
+                                    <p class="card-subtitle">
+                                        Dapatkan promo menarik pada booth-booth tenant bazzar Sudirman Run 2023 mulai dari F&B hingga fashion
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                         <div class="row">
                             <div class="col-12 card p-3">
-                                <div class="card-body">
-                                    <h4 class="h4 card-title">GRATIS DAN BERHADIAH </h4>
-                                    <p class="card-subtitle">
-                                        Pendaftaran gratis! Ajak keluarga anda dan menangkan hadiah total puluhan juta rupiah doorprize menarik!                                    
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 card p-3 mt-4">
-                                <div class="card-body">
-                                    <h4 class="h4 card-title">50+ TENANT BAZZAR </h4>
-                                    <p class="card-subtitle">
-                                        Dapatkan promo menarik pada booth-booth tenant bazzar Sudirman Run 2023 mulai dari F&B hingga fashion                                    
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 card p-3 mt-4">
-                                <div class="row g-0 p-3">
+                                <div class="row g-0">
                                     <div class="col-md-4">
-                                      <img src="images/route/map-2.png" class="img-fluid rounded-start" alt="...">
+                                        <img src="images/route/map-2.png" class="img-fluid rounded-start" alt="">
                                     </div>
                                     <div class="col-md-8">
-                                      <div class="card-body">
-                                        <h4 class="card-title">SPECIAL PERFORMANCE</h4>
-                                        <p class="card-text">
-                                            Saksikan penampilan dari RAN, Ayu Ting Ting, Diskoria, serta hiburan lainnya!
-                                        </p>
-                                      </div>
+                                        <div class="card-body">
+                                            <h4 class="card-title">SPECIAL PERFORMANCE</h4>
+                                            <p class="card-text">
+                                                Saksikan penampilan dari RAN, Ayu Ting Ting, Diskoria, serta hiburan lainnya!
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row mt-0">
+                <div class="row mt-4">
                     <div class="col text-center">
-                        <a href="https://event.detik.com/" class="nav-link btn-daftar rounded-pill">
+                        <a href="https://event.detik.com/" class="nav-link btn-daftar rounded-pill px-4 py-2 p-md-3">
                             DAFTAR SEKARANG
                         </a>
                     </div>
                 </div>
             </div>
         </section>
+        
         <section id="supportBy">
             <div class="container-fluid mt-5">
                 <div class="row">
@@ -209,9 +210,11 @@
                             <div class="tab-pane container active" id="artikel">
                                 <div class="row row-cols-1 row-cols-md-3 g-4 mt-1">
                                     <div class="col">
+                                      <a href="https://health.detik.com/kebugaran/d-7056398/sukses-finish-marathon-di-jakarta-osha-penyandang-autisme-beberkan-prosesnya">
                                       <div class="card">
-                                        <a href="https://health.detik.com/kebugaran/d-7056398/sukses-finish-marathon-di-jakarta-osha-penyandang-autisme-beberkan-prosesnya">
+                                        <div class="card-img">
                                         <img src="images/thumbnails/thumbnail-artikel-1-1.png" class="card-img-top rounded-5" alt="">
+                                        </div>
                                         <div class="card-body">
                                             <h5 class="card-title">
                                                 Sukses Finish Marathon di Jakarta, Osha Penyandang Autisme Beberkan Prosesnya
@@ -220,8 +223,8 @@
                                                 Sabtu, 25 Nov 2023 20:00 WIB
                                             </p>
                                         </div>
-                                        </a>
-                                      </div>
+                                        </div>
+                                      </a>
                                     </div>
                                     <div class="col">
                                       <div class="card">
@@ -295,7 +298,7 @@
                                     <div class="col">
                                       <div class="card">
                                         <img src="images/thumbnails/thumbnail-artikel-1-1.png" class="card-img-top rounded-5" alt="">
-                                        <div class="img-count-info d-flex">
+                                        <div class="img-count-info d-flex close">
                                             <img src="images/asset/Camera.svg" alt="">
                                             <p>5 Foto</p>
                                         </div>
@@ -312,11 +315,7 @@
                                     <div class="col">
                                       <div class="card">
                                         <img src="images/thumbnails/thumbnail-artikel-1-2.png" class="card-img-top rounded-5" alt="">
-                                        <div class="img-count-info d-flex">
-                                            <img src="images/asset/Camera.svg" alt="">
-                                            <p>5 Foto</p>
-                                        </div>
-                                        <div class="img-count-info d-flex">
+                                        <div class="img-count-info d-flex close">
                                             <img src="images/asset/Camera.svg" alt="">
                                             <p>5 Foto</p>
                                         </div>
@@ -333,7 +332,7 @@
                                     <div class="col">
                                       <div class="card">
                                         <img src="images/thumbnails/thumbnail-artikel-1-3.png" class="card-img-top rounded-5" alt="">
-                                        <div class="img-count-info d-flex">
+                                        <div class="img-count-info d-flex close">
                                             <img src="images/asset/Camera.svg" alt="">
                                             <p>5 Foto</p>
                                         </div>
@@ -350,7 +349,7 @@
                                     <div class="col">
                                       <div class="card">
                                         <img src="images/thumbnails/thumbnail-artikel-1-4.png" class="card-img-top rounded-5" alt="">
-                                        <div class="img-count-info d-flex">
+                                        <div class="img-count-info d-flex close">
                                             <img src="images/asset/Camera.svg" alt="">
                                             <p>5 Foto</p>
                                         </div>
@@ -367,7 +366,7 @@
                                     <div class="col">
                                       <div class="card">
                                         <img src="images/thumbnails/thumbnail-artikel-1-5.png" class="card-img-top rounded-5" alt="">
-                                        <div class="img-count-info d-flex">
+                                        <div class="img-count-info d-flex close">
                                             <img src="images/asset/Camera.svg" alt="">
                                             <p>5 Foto</p>
                                         </div>
@@ -384,7 +383,7 @@
                                     <div class="col">
                                       <div class="card">
                                         <img src="images/thumbnails/thumbnail-artikel-1-6.png" class="card-img-top rounded-5" alt="">
-                                        <div class="img-count-info d-flex">
+                                        <div class="img-count-info d-flex close">
                                             <img src="images/asset/Camera.svg" alt="">
                                             <p>5 Foto</p>
                                         </div>
@@ -403,10 +402,10 @@
                             <div class="tab-pane container fade" id="video">
                                 <div class="row row-cols-1 row-cols-md-3 g-4 mt-1">
                                     <div class="col">
+                                        <a href="https://health.detik.com/kebugaran/d-7056398/sukses-finish-marathon-di-jakarta-osha-penyandang-autisme-beberkan-prosesnya">
                                         <div class="card">
-                                          <a href="https://health.detik.com/kebugaran/d-7056398/sukses-finish-marathon-di-jakarta-osha-penyandang-autisme-beberkan-prosesnya">
                                           <img src="images/thumbnails/thumbnail-artikel-1-1.png" class="card-img-top rounded-5" alt="">
-                                          <div class="img-count-info d-flex">
+                                          <div class="img-count-info d-flex close">
                                             <img src="images/asset/Play.svg" alt="">
                                             <p>01:45</p>
                                           </div>
@@ -418,13 +417,13 @@
                                                   Sabtu, 25 Nov 2023 20:00 WIB
                                               </p>
                                           </div>
-                                          </a>
                                         </div>
+                                    </a>
                                     </div>
                                     <div class="col">
                                       <div class="card">
                                         <img src="images/thumbnails/thumbnail-artikel-1-2.png" class="card-img-top rounded-5" alt="">
-                                        <div class="img-count-info d-flex">
+                                        <div class="img-count-info d-flex close">
                                             <img src="images/asset/Play.svg" alt="">
                                             <p>01:45</p>
                                         </div>
@@ -441,7 +440,7 @@
                                     <div class="col">
                                       <div class="card">
                                         <img src="images/thumbnails/thumbnail-artikel-1-3.png" class="card-img-top rounded-5" alt="">
-                                        <div class="img-count-info d-flex">
+                                        <div class="img-count-info d-flex close">
                                             <img src="images/asset/Play.svg" alt="">
                                             <p>01:45</p>
                                         </div>
@@ -458,7 +457,7 @@
                                     <div class="col">
                                       <div class="card">
                                         <img src="images/thumbnails/thumbnail-artikel-1-4.png" class="card-img-top rounded-5" alt="">
-                                        <div class="img-count-info d-flex">
+                                        <div class="img-count-info d-flex close">
                                             <img src="images/asset/Play.svg" alt="">
                                             <p>01:45</p>
                                         </div>
@@ -475,7 +474,7 @@
                                     <div class="col">
                                       <div class="card">
                                         <img src="images/thumbnails/thumbnail-artikel-1-5.png" class="card-img-top rounded-5" alt="">
-                                        <div class="img-count-info d-flex">
+                                        <div class="img-count-info d-flex close">
                                             <img src="images/asset/Play.svg" alt="">
                                             <p>01:45</p>
                                         </div>
@@ -492,7 +491,7 @@
                                     <div class="col">
                                       <div class="card">
                                         <img src="images/thumbnails/thumbnail-artikel-1-6.png" class="card-img-top rounded-5" alt="">
-                                        <div class="img-count-info d-flex">
+                                        <div class="img-count-info d-flex close">
                                             <img src="images/asset/Play.svg" alt="">
                                             <p>01:45</p>
                                         </div>
@@ -513,7 +512,7 @@
                 </div>
                 <div class="row">
                     <div class="col text-center">
-                        <a href="https://www.detik.com/search/searchall?query=fun+run&siteid=2" class="nav-link btn-info-more rounded-pill">
+                        <a href="https://www.detik.com/search/searchall?query=fun+run&siteid=2" class="nav-link btn-info-more rounded-pill p-2 p-md-3">
                             LIHAT LEBIH BANYAK
                         </a>
                     </div>
@@ -527,13 +526,13 @@
                         <img src="images/logo/logo-event-2.png" alt="" class="rectangle">
                     </div>
                 </div>
-                <div class="row g-2 wrapper-footer-info gx-5">
-                    <div class="col-9 footer-info">
-                        <p>
+                <div class="row g-2 wrapper-footer-info gx-5 p-sm-3">
+                    <div class="col-sm-12 col-md-9 footer-info">
+                        <p class="text-center">
                             Event olahraga lari sejauh 10 kilometer yang diselenggarakan oleh Detikhealth secara gratis untuk masyarakat Indonesia. Ajak keluarga dan kerabat anda untuk ikut keseruan Sudirman Run 2023 lalu menangkan hadiah utama serta doorprize dengan total puluhan juta rupiah
                         </p>
                     </div>
-                    <div class="col-3 social-media">
+                    <div class="col-sm-12 col-md-3 social-media">
                         <div class="row d-flex flex-column ">
                             <div class="col">
                                 <p>Connect With Us</p>

@@ -3,11 +3,155 @@
         border-radius: 2rem;
         box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.05);
     }
+
+    header {
+        background-position: right;
+        /* padding-top: 10rem; */
+        height: fit-content;
+    }
+
+    header .logo-event img {
+        background-position: left;
+        background-size: auto;
+    }
+
+    section#berita .tab-content #foto .img-count-info,
+    section#berita .tab-content #video .img-count-info {
+        position: absolute;
+        width: fit-content;
+        height: fit-content;
+        margin: 0;
+        padding: 10px;
+        left: 60%;
+        bottom: 80%;
+        display: inline-block;
+        border-radius: 0.3125rem;
+        background: rgba(33, 36, 39, 0.50);    
+        color: white;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 2px;
+    }
+
+    section#berita .tab-content #foto .img-count-info p,
+    section#berita .tab-content #video .img-count-info p {
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        color: #FFF;
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
 }
 
 @media only screen and (max-width: 480px) {
     nav .bg-blur {
         border-radius: 2rem;
         box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.05);
+        width: 22.25rem;
+
+    }
+
+    header {
+        width: 27.25rem;
+        height: 58.9375rem;    
+    }
+
+    header .logo-event img {
+        background-position: left;
+        background-size: auto;
+        width: 22.9375rem;
+        height: 9.1875rem;        
+    }
+
+    section#tentangAcara {
+        padding: 30px;
+    }
+
+    section#tentangAcara .left-aside img {
+        width: 21.1875rem;
+        height: 15.875rem;
+        padding: 20px;    
+    }
+
+    section#berita .tab-content .container .card {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 10px;
+    }
+    
+    section#berita .tab-content .container .card .card-img  img{
+        border-radius: 10px;
+    }
+
+
+    section#berita .tab-content .tab-pane card-body .card-title {
+        overflow: hidden;
+        color: #212427;
+        text-overflow: ellipsis;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;        
+    }
+    
+    section#berita .tab-content #foto .img-count-info,
+    section#berita .tab-content #video .img-count-info {
+        display: none;
+        background-color: transparent;
+    }
+
+    section#berita .tab-content #foto .img-count-info p,
+    section#berita .tab-content #video .img-count-info p {
+        display: none;
+    }
+
+    section#berita .tab-content #foto .img-count-info img,
+    section#berita .tab-content #video .img-count-info img {
+        display: none;
+    }
+
+    section#supportBy h2, section#berita h2, section#galeri h2 {
+        font-size: 1.5rem;
+
+    }
+
+    footer .logo-event-footer img {
+        width: 80%;
+        margin: auto;
+    }
+
+    footer .wrapper-footer-info p{
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        color: #FFF;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding: 0 3rem;
+
+    }
+
+    footer .social-media {
+        justify-content: center;
+        align-items: center;
+        padding: 0px 20px 30px;
+        margin: 0;
+    }
+
+    footer .wrap-copyright-info p {
+        color: #FFF;
+        text-align: center;
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1rem; /* 133.333% */
+        letter-spacing: 0.00375rem;    
+        align-self: stretch;
     }
 }

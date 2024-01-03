@@ -1,3 +1,22 @@
+function toggleNavbar() {
+    const toggleButton = document.getElementById('toggleButton');
+    const menuIcon = document.getElementById('menuIcon');
+
+    toggleButton.addEventListener('click', function () {
+        // Toggle class untuk mengubah ikon pada tombol toggle
+        menuIcon.classList.toggle('menu-opened');
+
+        // Mengubah sumber gambar berdasarkan status class 'menu-opened'
+        if (menuIcon.classList.contains('menu-opened')) {
+            menuIcon.src = 'images/asset/Category.svg'; // Ganti dengan sumber gambar ketika menu tertutup
+
+        } else {
+        menuIcon.src = 'images/asset/icon-close.svg'; // Ganti dengan sumber gambar ketika menu terbuka
+
+        }
+    });
+}
+
 function handlerScrollLogo() {
     const scrollers = document.querySelectorAll(".scroller");
 
@@ -79,6 +98,7 @@ handlerSlideImages();
 
 
 function main() {
+    toggleNavbar()
     handlerScrollLogo();
     handlerSlideImages();
 }
